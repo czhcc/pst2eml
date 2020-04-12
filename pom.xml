@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>pst2eml</groupId>
+	<artifactId>pst2eml</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+<!-- https://crunchify.com/how-to-create-build-java-project-including-all-dependencies-using-maven-maven-resources-maven-dependency-maven-jar-plugin-tutorial/ -->
+	<dependencies>
+		<dependency>
+			<groupId>com.pff</groupId>
+			<artifactId>java-libpst</artifactId>
+			<version>0.9.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.mail</groupId>
+			<artifactId>javax.mail</artifactId>
+			<version>1.6.2</version>
+		</dependency>
+	</dependencies>
+</project>
